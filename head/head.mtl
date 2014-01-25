@@ -3,8 +3,9 @@
 # www.zbrush.com
 newmtl defaultMat
 map_Kd lambertian.jpg
-#map_bump -bm 0.001 bump-lowRes.png
-map_bump -bm 0.001 normal-lowRes.png
+map_bump -bm 0.001 bump-lowRes.png
+#map_bump -bm 0.001 normal-lowRes.png
 #map_bump -bm 0.02 bump.png
+map_Ks Map-SPEC.jpg
 Ks .0001 .0001 .0001
 Ns 5
